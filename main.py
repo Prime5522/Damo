@@ -7,9 +7,9 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # API ID, API HASH এবং BOT TOKEN সেটআপ
-API_ID = int(os.getenv("API_ID"))
-API_HASH = os.getenv("API_HASH")
-BOT_TOKEN = os.getenv("BOT_TOKEN")
+API_ID = int(os.getenv("24555039"))
+API_HASH = os.getenv("f32a41f1df7355686dab96a9b9bc928d")
+BOT_TOKEN = os.getenv("7442196956:AAHc_Ih_F1A9dzeZiqAjDtiICBgSzPqYzeg")
 
 # Pyrogram Bot সেটআপ
 bot = Client(
